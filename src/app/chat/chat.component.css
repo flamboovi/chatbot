@@ -1,0 +1,36 @@
+.mesage{
+    border-radius: 50px;
+    margin: 0 15px 20px;
+    padding: 10px 20px;
+    position: relative;
+    font-size: 20px;
+}
+.message.to{
+    background-color: #2095fe;
+    color: white;
+    margin-left: 100px;
+    text-align: right;
+    border-radius: 15px;
+}
+.message.from{
+    background-color: #e5e4e9;
+    color: #363636;
+    margin-right: 100px;
+    text-align: left;
+    border-radius: 15px;
+}
+.message.to + .message.to
+.message.from + .message.from{
+    margin-top: 10px;
+}
+.container{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.btn-primary{
+    background-color: #2095fe;
+    width: 10%;
+    height: 50%;
+    border-radius: 5px;
+}
